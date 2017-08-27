@@ -1,0 +1,415 @@
+body, html {
+	margin:0;
+	font:1em "Open San", sans-serif;
+	background-image:url('https://static.pexels.com/photos/121192/pexels-photo-121192.jpeg');
+	background-size:cover;
+
+}
+
+
+
+.nav-main .logo {
+	float:left;
+	height:40px;
+	padding:15px 30px;
+	font-size:1.4em;
+	line-height:40px;
+}
+
+.nav-main {
+	width:100%;
+	background-color:#222;
+	height:70px;
+	color:#fff;
+	position:fixed;
+}
+
+.nav-main > ul {
+	margin:0;
+	padding:0;
+	float:left;
+	list-style-type:none;
+}
+
+
+.nav-main > ul > li {
+	float:left;
+}
+
+.nav-item {
+	display:inline-block;
+	padding: 15px 20px;
+	height:40px;
+	line-height:40px;
+	margin:0;
+}
+
+
+.nav-item:hover {
+	background-color:#111;
+	cursor:pointer;
+	height:70px;
+}
+
+/*
+
+.nav-option {
+	display:none;
+
+}
+
+*/
+
+
+.header-image {
+/*	background-image:url('https://static.pexels.com/photos/245250/pexels-photo-245250.jpeg');  */
+    background-image:url("pic1.jpg");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:700px;
+	margin:0;
+}
+
+
+.header-text {
+  padding-top:100px;
+  padding-bottom:100px;
+  text-align:center;
+  color:white;
+  font-family: 'Abril Fatface', cursive;
+}
+
+
+
+
+/*
+table {
+    border-collapse: collapse;
+    border: solid white;
+    margin-left: auto;
+	margin-right: auto;
+}
+*/
+
+
+
+.about-image {
+	background-image:url('https://static.pexels.com/photos/301614/pexels-photo-301614.jpeg');
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:700px;
+}
+
+
+
+.about-text-main {
+	text-align:center;
+ 	font-size:50px;
+ 	font-family: 'Abril Fatface', cursive;
+}
+
+
+.about-text-details {
+	text-align:center;
+	font-size:20px;
+	list-style-type: none;
+}
+
+
+
+
+  .carousel-inner img {
+      -webkit-filter: grayscale(90%);
+      filter: grayscale(90%); /* make all photos black and white */ 
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+  }
+  .carousel-caption h3 {
+      color: #fff !important;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }  
+
+
+
+.carousel-content1 {
+
+    color:black;
+    display:flex;
+   align-items:center;
+ /*  padding-top:100px
+  padding-bottom:100px;
+  padding-left: 100px;
+  padding-right: 100px; */
+  text-align:center;
+  color:white;
+  font-family: 'Abril Fatface', cursive;
+
+    background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:700px;
+	margin:0;
+
+}
+
+
+.carousel-image1 {
+	background-image: url('https://static.pexels.com/photos/132340/pexels-photo-132340.jpeg');
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:800px;
+}
+
+.carousel-quotes {
+font-family:'Open Sans Condensed', sans-serif;
+font-size: 16px;
+padding-top: 120px;
+} 
+
+.carousel-career {
+	font-size: 50px;
+	padding-left:250px;
+}
+
+.carousel-career-content {
+	font-size: 20px;
+	padding-left:250px;
+    list-style-type: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel-content2 {
+
+    color:black;
+    display:flex;
+   align-items:center;
+ /*  padding-top:100px
+  padding-bottom:100px;
+  padding-left: 100px;
+  padding-right: 100px; */
+  text-align:center;
+  color:white;
+  font-family: 'Abril Fatface', cursive;
+
+    background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:700px;
+	margin:0;
+
+}
+
+
+.carousel-image2 {
+	background-image: url('https://static.pexels.com/photos/97050/pexels-photo-97050.jpeg');
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:800px;
+}
+
+
+
+.carousel-education {
+	font-size: 50px;
+	padding-right:350px;
+	color:black;
+}
+
+.carousel-education-content {
+	font-size: 20px;
+	padding-right:400px;
+    list-style-type: none;
+    color:black;
+    }
+
+
+.carousel-education-quotes {
+font-family:'Open Sans Condensed', sans-serif;
+font-size: 16px;
+color:black;
+padding-top :400px;
+padding-left:100px;
+} 
+
+
+
+
+
+
+
+.carousel-content3 {
+
+    color:black;
+    display:flex;
+   align-items:center;
+ /*  padding-top:100px
+  padding-bottom:100px;
+  padding-left: 100px;
+  padding-right: 100px; */
+  text-align:center;
+  color:white;
+  font-family: 'Abril Fatface', cursive;
+
+    background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:700px;
+	margin:0;
+
+}
+
+
+.carousel-image3 {
+	background-image: url('https://static.pexels.com/photos/386025/pexels-photo-386025.jpeg');
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:800px;
+}
+
+.carousel-ablilty-main {
+	font-size:60px;
+	color:black;
+}
+
+
+
+
+.carousel-ability-left {
+	font-size: 40px;
+	padding-right:150px;
+	color:black;
+}
+
+
+
+.carousel-ability-right {
+	font-size: 40px;
+	padding-left:200px;
+	color:black;
+}
+
+
+
+
+
+
+
+.carousel-ability-content-left {
+	font-size: 20px;
+	padding-right:200px;
+    list-style-type: none;
+    color:black;
+    }
+
+.carousel-ability-content-right {
+	font-size: 20px;
+	padding-left:200px;
+    list-style-type: none;
+    color:black;
+    }
+
+.carousel-ability-quotes {
+font-family:'Open Sans Condensed', sans-serif;
+font-size: 9px;
+color:black;
+
+} 
+
+
+
+
+
+.thumbnail-size {
+	max-height: 300px;
+    max-width: 300px;
+    margin: 0 auto;
+   
+}
+
+
+.works-image {
+  background-image: url('https://static.pexels.com/photos/360399/pexels-photo-360399.jpeg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.works-text {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-size:60px;
+  padding-top: 80px;
+}
+
+/*
+.thumbnail {
+	border-radius:50px;
+}
+
+.works-caption {
+	background-color:lightgrey;
+	text-align:center;
+	color:black;
+	font-family: 'Abril Fatface', cursive;
+
+}
+*/
+
+.contactme-image{
+  background-image: url('https://static.pexels.com/photos/462051/pexels-photo-462051.jpeg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.contactme-text {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-size:60px;
+  padding-top: 200px;
+}
+
+
+
+
+
+
+.contact-quotes {
+font-family:'Open Sans Condensed', sans-serif;
+font-size: 16px;
+color:white;
+text-align: center;
+line-height: 12;
+}
+
+
